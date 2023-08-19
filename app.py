@@ -80,19 +80,19 @@ def predict_on_video(video_file_path, output_file_path, SEQUENCE_LENGTH):
   
 def main():  
     # giving a title
-    st.title('Video Classification Web App')
+    st.title('Sports action Classification-Web App')
     #Upload video file
-    uploaded_file = st.file_uploader("Choose a video...", type=["mp4", "mpeg"])
+    uploaded_file = st.file_uploader("Upload a Video", type=["mp4", "mpeg"])
     if uploaded_file is not None:
         #store the uploaded video locally
         with open(os.path.join("C:/Users/VISHAL KHUMAR P D/Desktop/VideoClassificationApp-main/Temp/",uploaded_file.name.split("/")[-1]),"wb") as f:
             f.write(uploaded_file.getbuffer())
         st.success("File Uploaded Successfully")
 
-        if st.button('Classify The Video'):
+        if st.button('Apply Deep learning classification'):
             output_file_path = os.path.join("C:/Users/VISHAL KHUMAR P D/Desktop/VideoClassificationApp-main/VideoSample/",
                                             uploaded_file.name.split("/")[-1].split(".")[0] + "_output1.mp4")
-            with st.spinner('Wait for it...'):
+            with st.spinner('Please wait...Your video is processing.'):
                 predict_on_video("C:/Users/VISHAL KHUMAR P D/Desktop/VideoClassificationApp-main/Temp/" +
                                  uploaded_file.name.split("/")[-1], output_file_path, SEQUENCE_LENGTH)
 
