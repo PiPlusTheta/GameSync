@@ -59,6 +59,8 @@ model.add(Dense(len(CLASSES_LIST), activation='softmax'))
 ```
 
 ## Performance Evaluation
+![261801968-4fc113ca-0070-48d5-bf66-18870a56e2dc](https://github.com/NiloyNath1215/GameSync/assets/68808227/de15d4d9-7dce-49b8-bfef-a76feb7e969c)
+![261801948-8ebc2711-fff8-4e18-ab8d-56128cd6286a](https://github.com/NiloyNath1215/GameSync/assets/68808227/4833136d-a740-429b-8360-123cdcc1590b)
 
 The engine's prowess is meticulously measured through comprehensive performance evaluation. The results achieved on the test dataset underscore its prowess:
 
