@@ -6,6 +6,20 @@
 
 Welcome to the GameSync repository! Our project is dedicated to the development of an advanced sports classification engine that excels in accurately categorizing diverse sports actions within video clips. Leveraging a sophisticated Long-term Recurrent Convolutional Network (LRCN) architecture and trained on the challenging UCF101 dataset, this engine exhibits remarkable adaptability and precision.
 
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Sports Action Classes](#sports-action-classes)
+- [Model Architecture](#model-architecture)
+  - [Convolutional Layers](#convolutional-layers)
+  - [LSTM Layer](#lstm-layer)
+  - [Output Layer](#output-layer)
+- [Performance Evaluation](#performance-evaluation)
+- [Understanding Epochs and Overfitting](#understanding-epochs-and-overfitting)
+- [Getting Started](#getting-started)
+- [Contributing](#contributing)
+- [License](#license)
+
 ## Introduction
 
 In the realm of sports video analysis, the GameSync sports classification engine stands as a cutting-edge solution. At its core, the engine demonstrates the capability to not only recognize but also classify complex sports actions depicted in video clips. This achievement is realized through a harmonious fusion of Convolutional Neural Networks (CNNs) for spatial feature extraction and Long Short-Term Memory (LSTM) networks for capturing intricate temporal dynamics. This combination empowers the model to decipher the subtle patterns and temporal nuances that define distinct sports actions.
