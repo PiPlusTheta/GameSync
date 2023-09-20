@@ -1,5 +1,9 @@
 # GameSync: Advanced Sports Classification Engine
 
+[![GitHub stars](https://img.shields.io/github/stars/PiPlusTheta/EarthFinesse)](https://github.com/PiPlusTheta/GameSync/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/PiPlusTheta/EarthFinesse)](https://github.com/PiPlusTheta/GameSync/network/members)
+[![GitHub license](https://img.shields.io/github/license/PiPlusTheta/EarthFinesse)](https://github.com/PiPlusTheta/GameSync/blob/main/LICENSE)
+
 Welcome to the GameSync repository! Our project is dedicated to the development of an advanced sports classification engine that excels in accurately categorizing diverse sports actions within video clips. Leveraging a sophisticated Long-term Recurrent Convolutional Network (LRCN) architecture and trained on the challenging UCF101 dataset, this engine exhibits remarkable adaptability and precision.
 
 ## Introduction
